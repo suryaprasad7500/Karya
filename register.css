@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.reg_section
+{	
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	background-color:#FFF;
+	width:55%;
+	height:auto;
+	padding:45px;
+	border-radius:7px;
+	box-shadow:5px 5px 2px #333;
+	}
+table.table_register
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	text-align:left;
+	color:#000;
+	}
+input.input_register
+{
+	width:60%;
+	border-radius:2px;
+	border-width:2px;
+	}
+input.input_register2
+{
+	width:100%;
+	border-radius:2px;
+	border-width:2px;
+	}
+	
+input.input_register3
+{
+	width:30%;
+	border-radius:2px;
+	border-width:2px;
+	}
+
+td
+{
+	font-size:18px;
+	}
+input.radio
+{
+	width:10%;
+	text-align:left;
+	}
+select.register
+{
+	width:62%;
+	}
+button
+{
+	float:right;
+	font-size:18px;
+	background-color:white;
+	border-radius:3px;
+	border-color:black;
+	}
+button:hover
+{
+	float:right;
+	font-size:18px;
+	background-color:black;
+	color:white;
+	border-radius:3px;
+	border-color:white;
+	}
+input.value
+{
+	color:#666;
+	}
+/*tr.passrow
+{
+	visibility:hidden;
+	}*/
+td.reg_notif
+{
+	text-align:center;
+	}

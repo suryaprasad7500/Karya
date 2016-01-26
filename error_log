@@ -1,0 +1,2 @@
+[31-Jan-2014 05:37:00 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/adendent/public_html/karya/includes/login.php on line 17
+[31-Jan-2014 05:38:25 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/adendent/public_html/karya/includes/login.php on line 18

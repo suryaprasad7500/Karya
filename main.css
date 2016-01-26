@@ -1,0 +1,275 @@
+/*div.big
+{
+	height:auto;
+	width:97.8%;
+	min-height:100%;
+	}*/
+html
+{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-family:"Segoe UI";
+	background-size:cover;
+	background-attachment:fixed;
+	background-image: url(images/Colorful_Abstract_Waves.jpg);
+	}
+html.other
+{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-family:"Segoe UI";
+	background-color:#036;
+	}
+a.header
+{
+	text-decoration:none;
+	color:white;
+	}
+a.options{
+	text-decoration:none;
+	color:black;
+	}
+
+body
+	{
+		height:100%;
+		width:99.2%;
+		min-height:100%;
+		margin:0px;
+		padding:0px;
+		text-align:center;		
+		list-style:none;
+	}
+body.second
+{
+		height:auto;
+		width:99.2%;
+		min-height:100%;
+		margin:0px;
+		padding:0px;
+		text-align:center;		
+		list-style:none;
+	background-color:#036;
+	}
+.main_header
+{
+	top:0px;
+	left:0px;	
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:65px;
+	background-color:#036;
+	text-align:left;
+	font-family: "Segoe UI";
+	padding-bottom:15px;
+	padding-left:30px;
+	list-style:none;
+	display:inline-block;
+	}
+font.company_name
+{
+	padding-top:25px;
+	float:left;
+	color:#CCC;
+	font-weight:bolder;
+	font-size:30px;
+	font-family:"Segoe UI";
+	}
+nav.header_nav
+{
+	color:#FFF;
+	float:right;
+	padding-top:2.5%;
+	padding-right:10%;
+	word-spacing:5px;
+	}
+font.header_nav
+{
+	padding-right:30px;
+	float:right;
+	text-align:right;
+	color:#FFF;
+	list-style:none; 
+	}
+li
+{
+	margin:5px;
+	display:inline;
+	list-style:none;
+	}
+section.search_section
+{
+	border-radius:3px;
+	font-size:125%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	text-align:left;
+	color:#000;
+	background-color:#FFF;
+	width:80%;
+	height:200px;
+	box-shadow:7px 6px 5px #1B1B1B;
+	}
+section.login_section
+{
+	border-radius:3px;
+	font-size:125%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:3%;
+	text-align:left;
+	color:#000;
+	background-color:#FFF;
+	width:50%;
+	height:auto;
+	box-shadow:7px 6px 5px #1B1B1B;
+	}
+input
+{
+	width:60%;
+	border-radius:2px;
+	border-width:2px;
+	}
+select.search
+{
+	/*border-radius:2px;
+	border-width:2px;*/
+	width:40%;
+	}
+button.login_button
+{
+	font-size:16px; 
+	float:right;
+	background:color:white; 	
+	border-color:black;
+	border-width:3px;
+	text-align:right;
+	font-family:"Segoe UI";
+	font-weight:bold;
+	border-radius:5px;
+	}
+button.table_button
+{
+	font-size:16px; 
+	float:right;
+	background:color:white; 	
+	border-color:black;
+	border-width:3px;
+	text-align:right;
+	font-family:"Segoe UI";
+	font-weight:bold;
+	border-radius:5px;
+	}
+table
+{	
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	color:#000;
+	}
+td.search
+{
+	font-size:17px;
+	}
+td.options
+{
+	padding:20px;
+	font-size:19px;
+	}
+section.options_section
+{
+	height:auto;
+	min-height:100%;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	color:black;
+	}
+section.compcontext
+{
+	width:70%;
+	background-color:#FFF;
+	color:#000;
+	margin-left:25%;
+	margin-top: 2%;
+	border-radius:7px;
+	box-shadow:3px 3px 3px #333;
+	}
+table.options_table1
+{
+	background-color:white;
+	box-shadow:3px 2px 5px #1B1B1B;
+	float:left;
+	border:#000;
+	border-width:2px;
+	color:black;
+	}
+table.options_table2
+{
+	background-color:white;
+	box-shadow:-3px 2px 7px #1B1B1B;
+	float:right;
+	border:#000;
+	border-width:2px;
+	color:black;
+	}
+
+article.companies
+{
+	border-width:5px;
+	border-color:black;
+	}
+img.company
+{
+	width:140px;
+	height:50px;	
+	}
+.main_footer
+{
+	position:absolute;
+    bottom:-80%;
+	padding-top:10px;
+	padding-right:10px;
+	font-size:14px;
+	text-align:right;
+	color:white;
+	width:100%;
+	background-color:#036;
+	}
+img.header_img
+{
+	padding-top:10px;
+	margin-top:6px;
+	float:left;
+	}
+button.table_button:hover
+{
+	font-size:16px; 
+	float:right;
+	background-color:black; 	
+	border-color:white;
+	color:white;
+	border-width:3px;
+	text-align:right;
+	font-family:"Segoe UI";
+	font-weight:bold;
+	border-radius:5px;
+	}
+iframe
+{
+	border-radius:5px;
+	box-shadow:3px 3px 3px #333;
+	height:500px;
+	}
+#selected
+{
+	font-weight:bold;
+	}

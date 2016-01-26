@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.profile
+{
+	font-size:large;
+	padding:1%;
+	margin-top:2%;
+	margin-left:1.5%;
+	color:black;
+	width:15%;
+	height:auto;
+	background-color:white;
+	float:left;
+	border-radius:7px;
+	box-shadow:3px 3px 3px #333;
+	}
+table.profile
+{
+	margin-top:10%;
+	margin-left:2%;
+	text-align:left;
+	color:#000;
+	}
+iframe
+{
+	border-style:none;
+	margin:30px;
+	}
